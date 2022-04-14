@@ -4,8 +4,8 @@ function isAlphaNum(char) {
   
 function palindrome(str) {
     str = str.toLowerCase();
-    let normalStr = '';
-    let reversedStr = '';
+    const normalStr = '';
+    const reversedStr = '';
   
     for (let i = 0; i < str.length; i++) {
         if (isAlphaNum(str[i])) {
